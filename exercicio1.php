@@ -18,10 +18,10 @@
             if(isset($_POST['verificar_parImparo'])){
                 $numero = $_POST['numero_parImpar'];
 
-                $ehPar = false;
                 if($numero % 2 == 0){
                     $ehPar = true;
                 }else{
+                    $ehPar = false;
                 }
                 echo "O número $numero é ". ($ehPar ? ' par':' impar');
             };
