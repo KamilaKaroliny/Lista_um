@@ -22,8 +22,8 @@
                     for($i = 0; $i <= 10; $i++){
                         $tabuada = $numero * $i;
                         echo "$numero X $i = $tabuada <br>";
-                    }   
-                }
+                    }; 
+                };
             };
 
         };
