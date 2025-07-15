@@ -29,7 +29,7 @@
        if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['verificar_perfeitos'])) {
             $a = (int)$_POST['numero'];
 
-             if ($a <= 0) {
+            if ($a <= 0) {
                 echo "Por favor, insira apenas números inteiros positivos.";
             } else {
                 $perfeitoA = somaDivisores($a);
