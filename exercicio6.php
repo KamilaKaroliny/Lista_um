@@ -17,8 +17,6 @@
     <?php
         function numeroDivisores($n)
         {
-            $divisores = 0;
-
             for ($i = 1; $i <= $n; $i++) {
                 if ($n % $i == 0) {
                     echo "Os divisores são: $i <br>";
