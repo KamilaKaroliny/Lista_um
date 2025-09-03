@@ -8,8 +8,10 @@
     <form action="" method="POST">
         <label for="peso">Digite seu peso: </label> <br> <br>
         <input type="number" step=".01" name="peso" id="peso" required>  <br> <br>
+
         <label for="altura">Digite sua altura (1.70): </label> <br> <br>
         <input type="number" step=".01" name="altura" id="altura" required> <br> <br>
+        
         <button type="submit" name="cal_imc">Enviar</button>
     </form>
 
